@@ -7,7 +7,7 @@ public class Main {
         Instruments instrument2 = new WindInstruments();
     instrument2.play();
 
-    Instruments instrument3 = new Percurssion();
+    Instruments instrument3 = new Percurssion("Drum", 111);
     instrument3.play();
         {
             System.out.println("Initialization blocks are executed in main method");
@@ -17,6 +17,6 @@ public class Main {
         System.out.println("Initialization blocks are executed in main class");
     }
     static { //Static code block
-        System.out.println("The static block initization in class Main");
+        System.out.println("The static block initization in class Main ");
     }
 }
